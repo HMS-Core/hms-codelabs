@@ -1,6 +1,7 @@
 # HMS Sample Code for Codelab
 Codelabs provide a technical expert guidance, tutorial and hands-on coding experience. Here you can learn about HUAWEI's latest cutting-edge technologies, and share
 knowledge and insights with HUAWEI technical experts & developer across the country to explore the unique charm of the code. 
+
 This repositories is a collection of sample code used in HMS Codelab. For more information, click https://developer.huawei.com/consumer/en/community/codelabs
 
 - [Account Kit](https://github.com/HMS-Core/hms-codelab/tree/master/Account%20Kit)
