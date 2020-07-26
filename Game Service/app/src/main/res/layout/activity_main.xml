@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <Button
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Init"
+        android:id="@+id/codelab_init"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SignIn"
+        android:id="@+id/codelab_signIn"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GetCurrentPlayer"
+        android:id="@+id/codelab_gameLogin"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SubmitPlayerEvent_Begin"
+        android:id="@+id/codelab_reportStart"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SubmitPlayerEvent_End"
+        android:id="@+id/codelab_reportEnd"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GetPlayerExtraInfo"
+        android:id="@+id/codelab_getPlayerExtraInfo"/>
+
+</LinearLayout>
