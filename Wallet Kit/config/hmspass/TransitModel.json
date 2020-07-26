@@ -1,0 +1,98 @@
+{
+  "passVersion": "1.0",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.transit.test",
+  "passStyleIdentifier": "transitModelTest",
+  "organizationName": "XXX Railway",
+  "fields": {
+    "countryCode": "zh",
+    "locationList": [
+      {
+        "longitude": "114.0679603815",
+        "latitude": "22.6592051284"
+      }
+    ],
+    "commonFields": [
+      {
+        "key": "logo",
+        "value": "https:/www.huawei.com/XXX.png"
+      },
+      {
+        "key": "merchantName",
+        "value": "XXX Railway",
+        "localizedValue": "merchantNameI18N"
+      }
+    ],
+    "appendFields": [
+      {
+        "key": "backgroundColor",
+        "value": "#FF37C09A"
+      },
+      {
+        "key": "ticketFaceValue",
+        "value": "$127"
+      }
+    ],
+    "imageList": [
+      {
+        "key": "mainImage[0]",
+        "value": "https:/www.huawei.com/XXX0.png"
+      },
+      {
+        "key": "mainImage[1]",
+        "value": "https:/www.huawei.com/XXX1.png"
+      },
+      {
+        "key": "mainImage[2]",
+        "value": "https:/www.huawei.com/XXX2.png"
+      }
+    ],
+    "messageList": [
+      {
+        "key": "message[0]",
+        "value": "Have a nice trip!"
+      }
+    ],
+    "ticketInfoList": [
+      {
+        "key": "departureStationName",
+        "value": "Euston"
+      },
+      {
+        "key": "arrivalStationName",
+        "value": "Lime Street"
+      },
+      {
+        "key": "departureCityName",
+        "value": "London"
+      },
+      {
+        "key": "arrivalCityName",
+        "value": "Liverpool"
+      },
+      {
+        "key": "departureTime",
+        "value": "2019-12-09T10:49:00.010Z"
+      },
+      {
+        "key": "arrivalTime",
+        "value": "2019-12-09T13:55:00.010Z"
+      },
+      {
+        "key": "platform",
+        "value": "2"
+      }
+    ],
+    "localized": [
+      {
+        "key": "merchantNameI18N",
+        "language": "zh-cn",
+        "value": "XXX铁路公司"
+      },
+      {
+        "key": "merchantNameI18N",
+        "language": "en",
+        "value": "XXX Railway"
+      }
+    ]
+  }
+}

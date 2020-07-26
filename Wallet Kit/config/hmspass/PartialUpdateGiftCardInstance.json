@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "commonFields": [
+      {
+        "key": "balance",
+        "value": "$50"
+      }
+    ]
+  }
+}

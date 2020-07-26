@@ -1,0 +1,102 @@
+{
+  "passVersion": "2.0",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.giftcard.test",
+  "passStyleIdentifier": "giftCardModelTest",
+  "organizationName": "Huawei",
+  "fields": {
+    "countryCode": "zh",
+    "locationList": [
+      {
+        "longitude": "114.0679603815",
+        "latitude": "22.6592051284"
+      }
+    ],
+    "commonFields": [
+      {
+        "key": "logo",
+        "value": "https:/www.huawei.com/XXX.png"
+      },
+      {
+        "key": "backgroundImage",
+        "value": "https:/www.huawei.com/XXX.png"
+      },
+      {
+        "key": "name",
+        "value": "Christmas Gift Card"
+      },
+      {
+        "key": "merchantName",
+        "value": "XXX Super Market",
+        "localizedValue": "merchantNameI18N"
+      },
+      {
+        "key": "eventNumber",
+        "value": "223421510894697",
+        "label": "Event Number",
+        "localizedValue": "eventNameI18n"
+      }
+    ],
+    "appendFields": [
+      {
+        "key": "backgroundColor",
+        "value": "#483d8b"
+      },
+      {
+        "key": "hotline",
+        "value": "8006011450"
+      },
+      {
+        "key": "website",
+        "value": "https://www.huawei.com"
+      }
+    ],
+    "messageList": [
+      {
+        "key": "message[0]",
+        "value": "Welcome to use this gift card.",
+        "label": "Welcome"
+      },
+      {
+        "key": "message[1]",
+        "value": "This gift card can only be used on Christmas Eve.",
+        "label": "Explanation"
+      }
+    ],
+    "imageList": [
+      {
+        "key": "mainImage[0]",
+        "value": "https:/www.huawei.com/XXX0.png"
+      },
+      {
+        "key": "mainImage[1]",
+        "value": "https:/www.huawei.com/XXX1.png"
+      },
+      {
+        "key": "mainImage[2]",
+        "value": "https:/www.huawei.com/XXX2.png"
+      }
+    ],
+    "localized": [
+      {
+        "key": "merchantNameI18N",
+        "language": "zh-cn",
+        "value": "某某超市"
+      },
+      {
+        "key": "merchantNameI18N",
+        "language": "en",
+        "value": "XXX Super Market"
+      },
+      {
+        "key": "eventNumberI18N",
+        "language": "zh-cn",
+        "value": "活动编号"
+      },
+      {
+        "key": "eventNumberI18N",
+        "language": "en",
+        "value": "Event Number"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "appendFields": [
+      {
+        "key": "gate",
+        "value": "Gate 2"
+      }
+    ]
+  }
+}

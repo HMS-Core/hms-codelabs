@@ -1,0 +1,43 @@
+{
+  "organizationPassId": "5623489692",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.flight.test",
+  "passStyleIdentifier": "flightModelTest",
+  "serialNumber": "20001",
+  "fields": {
+    "status": {
+      "state": "active",
+      "effectTime": "2019-11-13T00:00:00.111Z",
+      "expireTime": "2020-11-20T00:00:00.111Z"
+    },
+    "commonFields": [
+      {
+        "key": "seatNumber",
+        "value": "12A"
+      },
+      {
+        "key": "passengerName",
+        "value": "Wang Xiao"
+      },
+      {
+        "key": "boardingSequence",
+        "value": "1"
+      },
+      {
+        "key": "flightClass",
+        "value": "First Class"
+      }
+    ],
+    "appendFields": [
+      {
+        "key": "confirmationNumber",
+        "value": "ITK919"
+      }
+    ],
+    "barCode": {
+      "text": "5623489692",
+      "type": "qrCode",
+      "value": "5623489692",
+      "encoding": "UTF-8"
+    }
+  }
+}

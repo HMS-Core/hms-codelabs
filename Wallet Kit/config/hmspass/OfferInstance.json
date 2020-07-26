@@ -1,0 +1,19 @@
+{
+  "organizationPassId": "5623489234",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.offer.test",
+  "passStyleIdentifier": "offerModelTest",
+  "serialNumber": "50001",
+  "fields": {
+    "status": {
+      "state": "active",
+      "effectTime": "2019-11-13T00:00:00.111Z",
+      "expireTime": "2020-11-20T00:00:00.111Z"
+    },
+    "barCode": {
+      "text": "562348969211212",
+      "type": "codabar",
+      "value": "562348969211212",
+      "encoding": "UTF-8"
+    }
+  }
+}

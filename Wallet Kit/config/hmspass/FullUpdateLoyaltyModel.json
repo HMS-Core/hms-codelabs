@@ -1,0 +1,98 @@
+{
+  "passVersion": "2.0",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.loyalty.test",
+  "passStyleIdentifier": "loyaltyModelTest",
+  "organizationName": "Huawei",
+  "fields": {
+    "countryCode": "zh",
+    "locationList": [
+      {
+        "longitude": "114.0679603815",
+        "latitude": "22.6592051284"
+      }
+    ],
+    "commonFields": [
+      {
+        "key": "logo",
+        "value": "https:/www.huawei.com/XXX.png"
+      },
+      {
+        "key": "backgroundImage",
+        "value": "https:/www.huawei.com/XXX.png"
+      },
+      {
+        "key": "name",
+        "value": "XXX Diamond Loyalty Card",
+        "label": "Card Name",
+        "localizedValue": "cardName"
+      },
+      {
+        "key": "merchantName",
+        "value": "XXX Super Market",
+        "localizedValue": "merchantNameI18N"
+      }
+    ],
+    "appendFields": [
+      {
+        "key": "backgroundColor",
+        "value": "#483d8b"
+      },
+      {
+        "key": "hotline",
+        "value": "8006011450"
+      },
+      {
+        "key": "website",
+        "value": "https://www.huawei.com"
+      },
+      {
+        "key": "level",
+        "value": "Diamond",
+        "label": "Membership Tier"
+      }
+    ],
+    "messageList": [
+      {
+        "key": "message[0]",
+        "value": "Best wishes.",
+        "label": "Message"
+      }
+    ],
+    "imageList": [
+      {
+        "key": "mainImage[0]",
+        "value": "https:/www.huawei.com/XXX0.png"
+      },
+      {
+        "key": "mainImage[1]",
+        "value": "https:/www.huawei.com/XXX1.png"
+      },
+      {
+        "key": "mainImage[2]",
+        "value": "https:/www.huawei.com/XXX2.png"
+      }
+    ],
+    "localized": [
+      {
+        "key": "cardName",
+        "language": "zh-cn",
+        "value": "XXX 钻石会员卡"
+      },
+      {
+        "key": "cardName",
+        "language": "en",
+        "value": "XXX Diamond Loyalty Card"
+      },
+      {
+        "key": "merchantNameI18N",
+        "language": "zh-cn",
+        "value": "XXX 超市"
+      },
+      {
+        "key": "merchantNameI18N",
+        "language": "en",
+        "value": "XXX Super Market"
+      }
+    ]
+  }
+}

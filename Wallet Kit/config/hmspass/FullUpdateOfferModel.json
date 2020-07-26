@@ -1,0 +1,95 @@
+{
+  "passVersion": "2.0",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.offer.test",
+  "passStyleIdentifier": "offerModelTest",
+  "organizationName": "Huawei",
+  "fields": {
+    "countryCode": "zh",
+    "locationList": [
+      {
+        "longitude": "114.0679603815",
+        "latitude": "22.6592051284"
+      }
+    ],
+    "commonFields": [
+      {
+        "key": "logo",
+        "value": "https:/www.huawei.com/XXX.png"
+      },
+      {
+        "key": "name",
+        "value": "70%-Off Coupon",
+        "localizedValue": "nameI18N"
+      },
+      {
+        "key": "providerName",
+        "value": "YYY Producer"
+      },
+      {
+        "key": "merchantName",
+        "value": "HUAWEI Vmall",
+        "localizedValue": "merchantNameI18N"
+      }
+    ],
+    "appendFields": [
+      {
+        "key": "details",
+        "value": "Detail information of this coupon.",
+        "localizedValue": "detailsI18N"
+      },
+      {
+        "key": "declaration",
+        "value": "Coupon disclaimer provided by merchant.",
+        "localizedValue": "declarationI18N"
+      },
+      {
+        "key": "backgroundColor",
+        "value": "#FF1C2635"
+      }
+    ],
+    "messageList": [
+      {
+        "key": "message[0]",
+        "value": "Don't miss this great offer!",
+        "label": "Important!",
+        "localizedValue": "message[0]I18N"
+      }
+    ],
+    "imageList": [
+      {
+        "key": "mainImage[0]",
+        "value": "https:/www.huawei.com/XXX0.png"
+      },
+      {
+        "key": "mainImage[1]",
+        "value": "https:/www.huawei.com/XXX1.png"
+      },
+      {
+        "key": "mainImage[2]",
+        "value": "https:/www.huawei.com/XXX2.png"
+      }
+    ],
+    "localized": [
+      {
+        "key": "merchantNameI18N",
+        "language": "zh-cn",
+        "value": "华为商城"
+      },
+      {
+        "key": "merchantNameI18N",
+        "language": "en",
+        "value": "HUAWEI Vmall"
+      },
+      {
+        "key": "message[0]I18N",
+        "language": "zh-cn",
+        "value": "不要错过这次的优惠！"
+      },
+      {
+        "key": "message[0]I18N",
+        "language": "en",
+        "value": "Don't miss this great offer!"
+      }
+    ]
+  }
+}

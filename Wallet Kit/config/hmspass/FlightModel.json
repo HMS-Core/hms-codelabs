@@ -1,0 +1,110 @@
+{
+  "passVersion": "1.0",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.flight.test",
+  "passStyleIdentifier": "flightModelTest",
+  "organizationName": "XXX Airline",
+  "fields": {
+    "countryCode": "zh",
+    "locationList": [
+      {
+        "longitude": "114.0679603815",
+        "latitude": "22.6592051284"
+      }
+    ],
+    "commonFields": [
+      {
+        "key": "logo",
+        "value": "https:/www.huawei.com/XXX.png"
+      },
+      {
+        "key": "merchantName",
+        "value": "XXX Airline",
+        "localizedValue": "merchantNameI18N"
+      },
+      {
+        "key": "flightNumber",
+        "value": "MU2887"
+      },
+      {
+        "key": "departureTerminal",
+        "value": "T2"
+      },
+      {
+        "key": "boardingGate",
+        "value": "45"
+      },
+      {
+        "key": "departureCity",
+        "value": "Nanjing"
+      },
+      {
+        "key": "arrivalTerminal",
+        "value": "T3"
+      },
+      {
+        "key": "arrivalCity",
+        "value": "Shenzhen"
+      }
+    ],
+    "appendFields": [
+      {
+        "key": "backgroundColor",
+        "value": "#FF1C2635"
+      }
+    ],
+    "imageList": [
+      {
+        "key": "mainImage[0]",
+        "value": "https:/www.huawei.com/XXX0.png"
+      },
+      {
+        "key": "mainImage[1]",
+        "value": "https:/www.huawei.com/XXX1.png"
+      },
+      {
+        "key": "mainImage[2]",
+        "value": "https:/www.huawei.com/XXX2.png"
+      }
+    ],
+    "messageList": [
+      {
+        "key": "message[0]",
+        "value": "Enjoy the journey!"
+      }
+    ],
+    "timeList": [
+      {
+        "key": "departureTime",
+        "value": "2020-05-09T10:30:00.010Z"
+      },
+      {
+        "key": "scheduledDepartureTime",
+        "value": "2020-05-09T10:30:00.010Z"
+      },
+      {
+        "key": "boardingTime",
+        "value": "2020-05-09T10:00:00.010Z"
+      },
+      {
+        "key": "arrivalTime",
+        "value": "2020-05-09T12:30:00.010Z"
+      },
+      {
+        "key": "scheduledArrivalTime",
+        "value": "2020-05-09T12:30:00.010Z"
+      }
+    ],
+    "localized": [
+      {
+        "key": "merchantNameI18N",
+        "language": "zh-cn",
+        "value": "XXX 航空公司"
+      },
+      {
+        "key": "merchantNameI18N",
+        "language": "en",
+        "value": "XXX Airline"
+      }
+    ]
+  }
+}

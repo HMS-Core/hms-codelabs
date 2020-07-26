@@ -1,0 +1,51 @@
+{
+  "organizationPassId": "5623489234",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.eventticket.test",
+  "passStyleIdentifier": "eventTicketModelTest",
+  "serialNumber": "10001",
+  "fields": {
+    "status": {
+      "state": "active",
+      "effectTime": "2019-11-13T00:00:00.111Z",
+      "expireTime": "2020-11-20T00:00:00.111Z"
+    },
+    "commonFields": [
+      {
+        "key": "ticketNumber",
+        "value": "12345678"
+      }
+    ],
+    "appendFields": [
+      {
+        "key": "gate",
+        "value": "Gate 2",
+        "label": "Gate"
+      },
+      {
+        "key": "section",
+        "value": "Section 3",
+        "label": "Section"
+      },
+      {
+        "key": "row",
+        "value": "Row 20",
+        "label": "Row"
+      },
+      {
+        "key": "seat",
+        "value": "Seat 10",
+        "label": "Seat"
+      },
+      {
+        "key": "userName",
+        "value": "Joe"
+      }
+    ],
+    "barCode": {
+      "text": "562348969211212",
+      "type": "codabar",
+      "value": "562348969211212",
+      "encoding": "UTF-8"
+    }
+  }
+}

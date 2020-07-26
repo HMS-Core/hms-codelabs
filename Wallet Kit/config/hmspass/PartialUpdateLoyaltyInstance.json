@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "appendFields": [
+      {
+        "key": "points",
+        "value": "1500"
+      }
+    ]
+  }
+}

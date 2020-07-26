@@ -1,0 +1,86 @@
+{
+  "passVersion": "2.0",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.eventticket.test",
+  "passStyleIdentifier": "eventTicketModelTest",
+  "organizationName": "Huawei",
+  "fields": {
+    "countryCode": "zh",
+    "locationList": [
+      {
+        "longitude": "114.0679603815",
+        "latitude": "22.6592051284"
+      }
+    ],
+    "commonFields": [
+      {
+        "key": "logo",
+        "value": "https:/www.huawei.com/XXX.png"
+      },
+      {
+        "key": "name",
+        "value": "XXX Party Ticket"
+      },
+      {
+        "key": "merchantName",
+        "value": "Huawei",
+        "localizedValue": "merchantNameI18N"
+      },
+      {
+        "key": "address",
+        "value": "YYY location"
+      },
+      {
+        "key": "ticketType",
+        "value": "Adult ticket"
+      }
+    ],
+    "appendFields": [
+      {
+        "key": "backgroundColor",
+        "value": "#FF1C2635"
+      }
+    ],
+    "imageList": [
+      {
+        "key": "mainImage[0]",
+        "value": "https:/www.huawei.com/XXX0.png"
+      },
+      {
+        "key": "mainImage[1]",
+        "value": "https:/www.huawei.com/XXX1.png"
+      },
+      {
+        "key": "mainImage[2]",
+        "value": "https:/www.huawei.com/XXX2.png"
+      }
+    ],
+    "messageList": [
+      {
+        "key": "message[0]",
+        "value": "Welcome to the party!"
+      }
+    ],
+    "timeList": [
+      {
+        "key": "startTime",
+        "value": "2020-01-22T18:00:00.083Z"
+      },
+      {
+        "key": "endTime",
+        "value": "2020-01-22T22:00:00.083Z"
+      }
+    ],
+    "localized": [
+      {
+        "key": "merchantNameI18N",
+        "language": "zh-cn",
+        "value": "华为"
+      },
+      {
+        "key": "merchantNameI18N",
+        "language": "en",
+        "value": "Huawei"
+      }
+    ]
+  }
+}

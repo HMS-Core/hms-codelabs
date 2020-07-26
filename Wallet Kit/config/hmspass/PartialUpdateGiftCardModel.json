@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "commonFields": [
+      {
+        "key": "logo",
+        "value": "https:/www.huawei.com/new_image_url.png"
+      }
+    ]
+  }
+}

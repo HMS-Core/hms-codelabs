@@ -1,0 +1,38 @@
+{
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.giftcard.test",
+  "passStyleIdentifier": "giftCardModelTest",
+  "organizationPassId": "356688115",
+  "serialNumber": "30001",
+  "fields": {
+    "status": {
+      "state": "active",
+      "effectTime": "2019-11-13T00:00:00.111Z",
+      "expireTime": "2028-11-20T00:00:00.111Z"
+    },
+    "barCode": {
+      "text": "1118466050",
+      "type": "codabar",
+      "value": "1118466050",
+      "encoding": "UTF-8"
+    },
+    "commonFields": [
+      {
+        "key": "cardNumber",
+        "value": "356688115"
+      },
+      {
+        "key": "balance",
+        "value": "$199"
+      },
+      {
+        "key": "balanceRefreshTime",
+        "value": "Thursday, Dec 12,2018"
+      },
+      {
+        "key": "pin",
+        "value": "118.91",
+        "label": "PIN Number"
+      }
+    ]
+  }
+}

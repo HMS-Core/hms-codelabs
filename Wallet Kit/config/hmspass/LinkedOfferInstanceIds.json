@@ -1,0 +1,14 @@
+{
+  "addOffers": [
+    {
+      "passTypeIdentifier": "hwpass.com.huawei.wallet.offer.test",
+      "instanceId": "50001"
+    }
+  ],
+  "deleteOffers": [
+    {
+      "passTypeIdentifier": "hwpass.com.huawei.wallet.offer.test",
+      "instanceId": "50002"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "commonFields": [
+      {
+        "key": "boardingSequence",
+        "value": "3"
+      }
+    ]
+  }
+}

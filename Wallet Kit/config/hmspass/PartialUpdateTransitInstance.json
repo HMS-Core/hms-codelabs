@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "commonFields": [
+      {
+        "key": "ticketStatus",
+        "value": "Used"
+      }
+    ]
+  }
+}

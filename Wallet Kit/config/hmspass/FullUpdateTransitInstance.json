@@ -1,0 +1,39 @@
+{
+  "organizationPassId": "5623489611",
+  "passTypeIdentifier": "hwpass.com.huawei.wallet.transit.test",
+  "passStyleIdentifier": "transitModelTest",
+  "serialNumber": "60001",
+  "fields": {
+    "status": {
+      "state": "active",
+      "effectTime": "2019-11-13T00:00:00.111Z",
+      "expireTime": "2020-11-20T00:00:00.111Z"
+    },
+    "commonFields": [
+      {
+        "key": "ticketStatus",
+        "value": "Not Used"
+      }
+    ],
+    "barCode": {
+      "text": "562348969211212",
+      "type": "codabar",
+      "value": "562348969211212",
+      "encoding": "UTF-8"
+    },
+    "ticketInfoList": [
+      {
+        "key": "carriage",
+        "value": "7"
+      },
+      {
+        "key": "seatNumber",
+        "value": "9C"
+      },
+      {
+        "key": "seatCoach",
+        "value": "2"
+      }
+    ]
+  }
+}
