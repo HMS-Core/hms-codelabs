@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="app_name">Happy Sport</string>
+<string name="main_activity_name">Happy Sport</string>
 <string name="app_total_steps">Steps</string>
 <string name="app_stride_frequency">Stride</string>
 <string name="app_calorie">Calorie</string>
 <string name="app_start">Start</string>
 <string name="app_pause">Pause</string>
 <string name="app_stop">Stop</string>
+<string name="app_get_auth">Get Permission</string>
 <string name="app_km">%sKM</string>
 <string name="app_step_per_min">%sstep/min</string>
 <string name="app_kcal">%sKCAL</string>

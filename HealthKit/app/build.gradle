@@ -58,7 +58,7 @@ dependencies {
     implementation "com.huawei.hms:network-grs:$rootProject.networkgrs"
     implementation 'com.huawei.hms:base:4.0.0.100'
     implementation 'com.huawei.hms:hwid:4.0.0.300'
-    implementation 'com.huawei.hms:hihealth-base:5.0.0.300'
+    implementation 'com.huawei.hms:hihealth-base:5.0.1.300'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

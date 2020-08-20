@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">快乐运动</string>
+    <string name="app_name">Happy Sport</string>
+    <string name="main_activity_name">快乐运动</string>
     <string name="app_total_steps">总步数</string>
     <string name="app_stride_frequency">步频</string>
     <string name="app_calorie">卡路里</string>

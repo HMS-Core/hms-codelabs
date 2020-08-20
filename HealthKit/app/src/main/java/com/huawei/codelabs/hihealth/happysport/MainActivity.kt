@@ -20,6 +20,7 @@ import com.huawei.codelabs.hihealth.happysport.utils.HiHealthSetup
 import com.huawei.codelabs.hihealth.happysport.utils.InjectorUtils
 import com.huawei.codelabs.hihealth.happysport.viewmodels.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
     companion object {
@@ -38,6 +39,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "create activity")
+
+        val language: String = HappySportsApplication.instance().getLanguage(
+            this,
+            HappySportsApplication.LANGUAGE_KEY,
+            ""
+        ) as String
+        if (language == Locale.ENGLISH.language) {
+            HappySportsApplication.instance().setLocale(this, Locale.ENGLISH)
+        }
 
         val binding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         setSupportActionBar(toolbar)
