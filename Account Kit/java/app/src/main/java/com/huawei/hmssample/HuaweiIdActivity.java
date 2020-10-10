@@ -98,18 +98,20 @@ public class HuaweiIdActivity extends LoggerActivity implements OnClickListener 
      * sign Out by signOut
      */
     private void signOut() {
-        Task<Void> signOutTask = mAuthManager.signOut();
-        signOutTask.addOnSuccessListener(new OnSuccessListener<Void>() {
-            @Override
-            public void onSuccess(Void aVoid) {
-                Log.i(TAG, "signOut Success");
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(Exception e) {
-                Log.i(TAG, "signOut fail");
-            }
-        });
+	   if (null != mAuthManager) {
+            Task<Void> signOutTask = mAuthManager.signOut();
+            signOutTask.addOnSuccessListener(new OnSuccessListener<Void>() {
+                @Override
+                public void onSuccess(Void aVoid) {
+                    Log.i(TAG, "signOut Success");
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(Exception e) {
+                    Log.i(TAG, "signOut fail");
+                }
+            });
+        }
     }
 
 

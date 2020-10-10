@@ -1,64 +1,74 @@
-/*
-Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-     http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
- */
 package com.huawei.logger
 
 import android.app.Activity
 import android.content.Context
 import android.util.AttributeSet
-import androidx.appcompat.widget.AppCompatTextView
+import android.widget.TextView
 import java.text.SimpleDateFormat
-import java.util.Date
+import java.util.*
 
-class LogView : AppCompatTextView, LogNode {
-    var next: LogNode? = null
 
-    constructor(context: Context?) : super(context)
-    constructor(context: Context?, attrs: AttributeSet?) : super(context, attrs)
+class LogView @JvmOverloads constructor(
+        context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+) : TextView(context, attrs, defStyleAttr), Log.LogNode {
 
-    constructor(context: Context?, attrs: AttributeSet?, defStyle: Int) : super(
-        context,
-        attrs,
-        defStyle
-    )
+    private var mNext: Log.LogNode? = null
 
-    override fun println(
-        priority: Int,
-        tag: String?,
-        msg: String?,
-        tr: Throwable?
-    ) {
-        val formatter = SimpleDateFormat.getTimeInstance()
+    fun getNext(): Log.LogNode? {
+        return mNext
+    }
+
+    fun setNext(node: Log.LogNode) {
+        mNext = node
+    }
+
+    override fun println(priority: Int, tag: String, msg: String?, tr: Throwable?) {
+
+        var priorityStr: String? = null
+
+        when (priority) {
+            Log.DEBUG -> priorityStr = "D"
+            Log.INFO -> priorityStr = "I"
+            Log.WARN -> priorityStr = "W"
+            Log.ERROR -> priorityStr = "E"
+            else -> {
+            }
+        }
+
+        var exceptionStr: String? = null
+        if (tr != null) {
+            exceptionStr = android.util.Log.getStackTraceString(tr)
+        }
+
+        val outputBuilder = StringBuilder()
+
+        val formatter = SimpleDateFormat("HH:mm:ss")
         val curDate = Date(System.currentTimeMillis())
         val str = formatter.format(curDate)
-        val outputBuilder = StringBuilder()
-            .append(str)
-            .append(" ")
-            .append(msg)
-            .append("\r\n")
-        (context as Activity).runOnUiThread {
-            appendToLog(outputBuilder.toString())
-        }
-        next?.println(priority, tag, msg, tr)
+        outputBuilder.append(str)
+        outputBuilder.append(" ")
+        outputBuilder.append(msg)
+        outputBuilder.append("\r\n")
+
+        (context as Activity).runOnUiThread(Thread(Runnable { appendToLog(outputBuilder.toString()) }))
+        mNext?.println(priority, tag, msg, tr)
     }
 
     private fun appendToLog(s: String) {
-        append("\n" + s)
+         append("\n" + s)
     }
 
-    override fun performClick(): Boolean {
-        return super.performClick()
+    private fun appendIfNotNull(source: StringBuilder, addStr: String?, delimiter: String): StringBuilder {
+        var delimiter = delimiter
+        if (addStr != null) {
+            if (addStr.length == 0) {
+                delimiter = ""
+            }
+
+            return source.append(addStr).append(delimiter)
+        }
+        return source
     }
+
+
 }
