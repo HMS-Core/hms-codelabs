@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PanoramaKitDemo</string>
+    <string name="button_in_hms">Display In HMS</string>
+    <string name="button_in_hms_with_permission">Display In HMS With Permission</string>
+    <string name="button_in_hms_ring">Display In HMS Ring</string>
+    <string name="button_in_hms_pick_photo">Display In HMS Pick photo</string>
+    <string name="button_in_app_spherical">Display In App Spherical</string>
+    <string name="button_in_app_ring">Display In App Ring</string>
+    <string name="button_in_app_polar">Display In App Polar</string>
+    <string name="button_in_app_video">Display In App Video</string>
+    <string name="button_touch">Touch</string>
+    <string name="button_pose">Pose</string>
+    <string name="button_mix">Mix</string>
+</resources>
