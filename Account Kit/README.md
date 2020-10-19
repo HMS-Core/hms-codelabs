@@ -39,7 +39,7 @@
     1. ID-Token Mode Sign In.  Sign in and Id-Token verification are both included.
     2. Authorization Code Mode Sign In. 
     3. Sign out.
-![account sample result](images/account_sample_result.jpg)
+![account sample result](../images/account_sample_result.jpg)
 
 ##  License
     Account-kit Android sample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
