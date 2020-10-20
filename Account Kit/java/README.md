@@ -23,7 +23,7 @@
    1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your divice or simulator which have installed latest Huawei Mobile Service(HMS).
    2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).
    3. Create an app and configure the app information in AppGallery Connect. 
-        See details: [HUAWEI Account Kit Development Preparations](https://developer.huawei.com/consumer/en/doc/development/HMS-Guides/account-preparation)
+        See details: [HUAWEI Account Kit Development Preparations](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050048870)
    4. To build this demo, please first import the demo in the Android Studio (3.x+).
    5. Configure the sample code:
         (1) Download the file "agconnect-services.json" of the app on AGC, and add the file to the app root directory(\app) of the demo.
@@ -39,7 +39,7 @@
     1. ID-Token Mode Sign In.  Sign in and Id-Token verification are both included.
     2. Authorization Code Mode Sign In. 
     3. Sign out.
-![account sample result](images/account_sample_result.jpg)
+![account sample result](../images/account_sample_result.jpg)
 
 ##  License
     Account-kit Android sample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
