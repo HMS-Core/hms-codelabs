@@ -8,7 +8,7 @@
  * [Installation](#installation)
  * [Configuration ](#configuration)
  * [Supported Environments](#supported-environments)
- * [Hardware Requirements](#Hardware-Requirements)
+ * [Hardware Requirements](#Hardware-Requirement)
  * [License and Terms](#license-and-terms)
 
 
