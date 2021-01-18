@@ -24,9 +24,4 @@ public class Constant {
     public static final int REQUEST_SIGN_IN_LOGIN = 1002;
     //login by code
     public static final int REQUEST_SIGN_IN_LOGIN_CODE = 1003;
-
-    /**
-     * your app’s client ID,please replace it of yours
-     */
-    public static final String CLIENT_ID = "your app's client ID";
 }

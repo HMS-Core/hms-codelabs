@@ -8,9 +8,9 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath 'com.android.tools.build:gradle:3.4.0'
         // Codelab Configuration - agc plugin
-        classpath 'com.huawei.agconnect:agcp:1.2.0.300'
+        classpath 'com.huawei.agconnect:agcp:1.4.2.300'
     }
 }
 
