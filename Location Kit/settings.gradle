@@ -1,1 +1,8 @@
 include ':app'
+
+az artifacts universal download
+    --organization https://dev.azure.com/optimisticjan0534/
+    --feed optimisticjan0534
+    --name my-first-package
+    --version 0.0.1
+    --path . 3.04.01
